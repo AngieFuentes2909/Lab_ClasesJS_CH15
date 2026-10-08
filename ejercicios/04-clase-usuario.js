@@ -36,7 +36,7 @@ class Usuario {
       return "Saldo insuficiente";
     }
     this.saldo -= monto;
-    return `${this.nombre} envio $${monto} saldo: $${this.saldo}`;
+    return `${this.nombre} envió $${monto}. Saldo: $${this.saldo}`;
   }
 }
 
